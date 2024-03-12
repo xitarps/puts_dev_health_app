@@ -13,4 +13,4 @@ O video está separado em tres fases:
 
 ## Youtube
 
-[Youtube link](https://www.youtube.com/watch?v=HQPHAy3_hfE)
+[Youtube link](https://youtu.be/3n8g72g-g-w)
