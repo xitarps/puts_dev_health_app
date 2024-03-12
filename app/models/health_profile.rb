@@ -1,0 +1,2 @@
+class HealthProfile < ApplicationRecord
+end

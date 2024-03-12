@@ -1,0 +1,32 @@
+<%= form_with(model: health_profile) do |form| %>
+  <% if health_profile.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(health_profile.errors.count, "error") %> prohibited this health_profile from being saved:</h2>
+
+      <ul>
+        <% health_profile.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :systolic_arterial_pressure, style: "display: block" %>
+    <%= form.text_field :systolic_arterial_pressure %>
+  </div>
+
+  <div>
+    <%= form.label :diastolic_arterial_pressure, style: "display: block" %>
+    <%= form.text_field :diastolic_arterial_pressure %>
+  </div>
+
+  <div>
+    <%= form.label :mean_arterial_pressure, style: "display: block" %>
+    <%= form.text_field :mean_arterial_pressure, disabled: true %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>

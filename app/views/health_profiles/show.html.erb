@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @health_profile %>
+
+<div>
+  <%= link_to "Edit this health profile", edit_health_profile_path(@health_profile) %> |
+  <%= link_to "Back to health profiles", health_profiles_path %>
+
+  <%= button_to "Destroy this health profile", @health_profile, method: :delete %>
+</div>
