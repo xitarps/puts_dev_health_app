@@ -11,6 +11,12 @@ O video está separado em tres fases:
  - Separar a lógica em um service(introdução a services)
  - Refatorar(explorando services)
 
+<hr>
+
+Referencia da formula de pressão arterial média:
+
+https://enfermagemflorence.com.br/pressao-arterial/
+
 ## Youtube
 
 [Youtube link](https://youtu.be/3n8g72g-g-w)
